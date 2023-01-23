@@ -1,0 +1,63 @@
+*{
+    /*margin: 0;   
+    
+    */
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    float: none;
+    min-height: 200px;
+    justify-content: space-between;
+    
+   
+} 
+.RedesSociais{
+    display: flex;
+    color: #f8f6f6;
+    max-width: 300px;
+    max-height: 200px;
+    width: 250px;
+    align-items: flex-start;
+    align-items: center;
+
+
+}
+
+.rd1{
+    max-height: 100%;
+    right: 100%;
+    margin:2%;
+}
+.rd1 img {
+    max-height: 35px;
+    right: 35px;
+    border-radius: 20px;
+}
+
+
+.logo img {
+    
+    max-height:100%;
+    right:100%;
+    
+}
+
+.logo{
+    
+    display: flex;
+    margin-left: 3%;
+    color: #f8f6f6;
+    max-width: 200px;
+    max-height: 200px;
+    align-items: flex-start;
+
+    
+
+    
+
+}
