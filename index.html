@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/cf1c05303d.js" crossorigin="anonymous"></script>
+    <script src="js/function.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&amp;family=Righteous&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&amp;display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="index.html">CK</a></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#n1">Sobre Mim</a></li>
+            <li><a href="#n2">Formação Acadêmica</a></li>
+            <li><a href="#n3">Exp. Profissional</a></li>
+            <li><a href="#n4">Conhecimentos</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+        </ul>
+        <a href="#home" id="homeResponsive">Home</a>
+        <button type="button" onclick="ativarMenu('menuResponsive', 'menuSecundario')" id="IconMenuResponsive"><div class="tab"></div><div class="tab"></div><div class="tab"></div></button>
+       
+    </header>
+
+    <div id="menuResponsive"><!--Só aparece quando o usuário clicar nas 3 barras-->
+        <ul id="menuSecundario">
+            <li><a href="#n1" onclick="javascrip:ativarMenu('menuResponsive', 'menuSecundario')">Sobre Mim</a></li>
+            <li><a href="#n2" onclick="javascrip:ativarMenu('menuResponsive', 'menuSecundario')">Formação Acadêmica</a></li>
+            <li><a href="#n3" onclick="javascrip:ativarMenu('menuResponsive', 'menuSecundario')">Exp. Profissional</a></li>
+            <li><a href="#n4" onclick="javascrip:ativarMenu('menuResponsive', 'menuSecundario')">Conhecimentos</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+        </ul>
+    </div>
+
+    <main>
+        
+        <div id="home">
+            <div id="section1">
+                <span>Oi, tudo bem?</span>
+                <h1>&nbsp Meu nome é Caik. :)</h1>
+                <h2><div class="boxAnimation"></div>Seja bem vindo(a) ao meio portfólio online. Não repara na bagunça. rsrs</h2>
+                <div class="btnContato">
+                    <abbr title="GitHub"><a href="https://github.com/CaikRian" id="b1"><i class="fa-brands fa-github"></i><p>GitHub</p></a></abbr>
+                    <abbr title="LinkedIn"><a href="https://www.linkedin.com/in/caikrian/" id="b2"><i class="fa-brands fa-linkedin"></i><p>LinkedIn</p></a></abbr>
+                    
+                    
+                </div>
+            </div>
+            <div id="section2" class="imgIcon" ><img src="img/rikckk.png" id="distorcao"></i></div>
+        </div>
+
+        <div class="setaBaixo"><a href="#n1"><i class="fa-solid fa-caret-down"></i></a></div>
+
+        <div id="n1" class="titulo">Sobre mim</div>
+        <div class="curriculo">
+            <div class="imgIcon" ><img src="img/img2.jpg" id="self"></div>
+            <div class="conteudo">
+                <p>&nbsp Meu primeiro contato com a tecnologia foi aos 12 anos, quando ganhei o meu primeiro celular. Achava um máximo, a 
+                    ideia de uma “pequena caixa” carregar tanto conteúdo. Desde então, sempre tive a curiosidade e a vontade de entender eprender
+                     como é o sistema por trás daqueles aplicativos e sites que tanto acessamos.</p>
+                <p>&nbsp Nos meus 15 anos, consegui passar no vestibular para o curso técnico de desenvolvimento de sistemas integrado ao ensino médio, 
+                    da ETEC. Foi a partir deste curso, que eu realmente tive a primeira experiência na criação e desenvolvimento 
+                    de um sistema web.</p>
+                <p>&nbsp Sou técnico formado em Análise e Desenvolvimento de Sistemas, pela ETEC. Atualmente, estou no 2º Semestre da minha graduação 
+                    em Ciência da Computação, pela FMU - Faculdades Metropolitanas Unidas.</p>
+            </div>
+        </div>
+
+        <div class="setaBaixo"><a href="#n2"><i class="fa-solid fa-caret-down"></i></a></div>
+
+        <div id="n2" class="titulo">Formação Acadêmica</div>
+        <div class="curriculo">
+            <div class="imgIcon"><i class="fa-solid fa-address-card"></i></div>
+            <div class="conteudo">
+                <ul>
+                    <li>- Técnico de Desenvolvimento de Sistemas Integrado ao E.M. – Concluído - 01/2019 até 12/2021 Dr. Celso Giglio (Osasco II) - ETEC</li>
+                    <li>- Graduação em Ciência da Computação – Trancado - 01/2022 até 06/2022 Universidade Paulista – UNIP Marquês</li>
+                    <li>- Graduação em Ciência da Computação - Concluindo – 07/2022 até 06/2026 Centro Universitário das Faculdades Metropolitanas Unidas – FMU Brigadeiro</li>
+                </ul>
+                <h3>Formação Complementar</h3>
+                <ul>
+                    <li>- Computação em Nuvem – Novotec Expresso (Fatec Osasco)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="setaBaixo"><a href="#n3"><i class="fa-solid fa-caret-down"></i></a></div>
+
+        <div id="n3" class="titulo">Experiência Profissional</div>
+        <div class="curriculo">
+            <div class="imgIcon"><i class="fa-solid fa-user-tie"></i></div>
+            <div class="conteudo">
+                <p>- No momento, não possuo nenhum tipo de experiência profissional. em busca da minha primeira experiencia.</p></div>
+        </div>
+
+        <div class="setaBaixo"><a href="#n4"><i class="fa-solid fa-caret-down"></i></a></div>
+
+        <div id="n4" class="titulo">Conhecimentos</div>
+        <div class="curriculo">
+            <div class="submenu">
+                <h4 id="icontitulo">Clique em algum icone para saber mais</h4>
+                <p id="resumo"></p>
+            </div>
+            <div class="conteudo" id="icones">  
+                    <abbr title="HTML 5"><input type="image" src="img/html.png" onclick="txt1()"></abbr>
+                    <abbr title="CSS"><input type="image" src="img/css-3.png" onclick="txt2()"></abbr> 
+                    <abbr title="JavaScrip"><input type="image" src="img/js.png" onclick="txt3()"></abbr>  
+                    <abbr title="PHP"><input type="image" src="img/php.png" onclick="txt4()"></abbr>                         
+                    <abbr title="C#"><input type="image" src="img/do-sustenido.png" onclick="txt5()"></abbr>
+                    <abbr title="C++"><input type="image" src="img/c-.png" onclick="txt6()"></abbr>    
+                    <abbr title="Phyton"><input type="image" src="img/phyton.png" onclick="txt7()"></abbr> 
+                    <abbr title="SQL"><input type="image" src="img/sql.png" onclick="txt8()"></abbr>
+            </div>
+        </div>
+          
+        
+    </main>
+    <footer>
+        <ul>
+            <li>Site produzido por Caik</li>
+            <li>Todos os direitos reservados</li>
+            <li>Contato: <br> &nbsp caik.job1707@gmail.com <br> &nbsp 9 3707-0068</li>
+        </ul>
+    </footer>
+</body>
+</html>
