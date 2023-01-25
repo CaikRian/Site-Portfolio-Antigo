@@ -81,7 +81,7 @@ h1{
 .boxAnimation{
     position: absolute;
     height: 100%;
-    background-color: #000000;
+    background-color: rgb(19, 19, 19);
     animation: boxColor 4s normal;
 }
 h2{
@@ -115,7 +115,7 @@ li{
 body{
     display: grid;
     position: block;
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     min-width: 320px;
     min-height: 570px;
     grid-template-columns: 1fr;
@@ -146,7 +146,7 @@ header{
 #menuResponsive{
     display: none;
     backdrop-filter: blur(4px);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0);
     
 }
 #menuResponsive ul{
@@ -159,20 +159,38 @@ header{
     width: 40px;
     position: relative;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 .tab{
     display: flex;
+    position: absolute;
     background-image: linear-gradient(to left, #00B6CD, #9EE000);
     width: 40px;
     height: 5px;
     transition: 1s;
     border-radius: 20px;
+    animation: iconaltura1 1s normal;
+}
+@keyframes altura {
 
+    0%{ 
+        top: -400px; 
+    }100%{ 
+        top: 0px; 
+            }
+    
 }
 #IconMenuResponsive .tab{
-    
     transition: 1s;
+}
+#tab1{
+    top: 15px;
+}
+#tab2{
+    top: 30px;
+}
+#tab3{
+    top: 45px;
 }
 
 
@@ -405,10 +423,6 @@ footer li{
     #b2{
         grid-area: b2; 
      }
-
-     #pdfCurriculo{
-        grid-area: pdfCurriculo; 
-     }
      #section1{
         width: 100%;
         height: 100%;
@@ -471,15 +485,6 @@ footer li{
         width: 100%;
         margin-top: 15vh;
         height: 85vh;
-    }
-    @keyframes altura {
-
-        0%{ 
-            top: -100%; 
-        }100%{ 
-            top: 0px; 
-                }
-        
     }
     #menuResponsive ul{
         display: block;

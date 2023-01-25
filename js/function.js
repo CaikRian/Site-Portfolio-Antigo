@@ -85,13 +85,15 @@ function txt8 (){
         document.getElementById(menu).style.display = 'block';
         document.getElementById(lista).style.display = 'block';
         document.body.style.overflowY = 'hidden';//faz scrool sumir
-        document.getElementById(lista).style.animation="altura 800ms normal";
-        document.getElementById('tab1').style.position="absolute";
-        document.getElementById('tab2').style.position="absolute";
-        document.getElementById('tab3').style.position="absolute";
+        document.getElementById(lista).style.animation="altura 900ms normal";
+  
         document.getElementById('tab1').style.transform="rotate(45deg)";
         document.getElementById('tab2').style.transform="rotate(45deg)";
         document.getElementById('tab3').style.transform="rotate(-45deg)";
+        document.getElementById('tab1').style.top="30px";
+        document.getElementById('tab2').style.top="30px";
+        document.getElementById('tab3').style.top="30px";
+
 
     
         
@@ -99,11 +101,11 @@ function txt8 (){
         document.getElementById(menu).style.display = 'none';
         document.getElementById(lista).style.display = 'none';
         document.body.style.overflowY = 'visible';
-        document.getElementById('tab1').style.position="relative";
-        document.getElementById('tab2').style.position="relative";
-        document.getElementById('tab3').style.position="relative";
         document.getElementById('tab1').style.transform="none";
         document.getElementById('tab2').style.transform="none";
         document.getElementById('tab3').style.transform="none";
+        document.getElementById('tab1').style.top="15px";
+        document.getElementById('tab2').style.top="30px";
+        document.getElementById('tab3').style.top="45px";
          }
   }
