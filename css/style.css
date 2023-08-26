@@ -318,6 +318,7 @@ main{
     flex-direction: column;
     width: calc(100% - 40%);
     justify-content: center;
+    margin: 6%;
 }
 .conteudo ul{
     display: flex;
@@ -455,7 +456,7 @@ footer li{
         font-size: 37px;
     }
     h2{
-        font-size: 10px;
+        font-size: 12px;
     }
     header{
         justify-content: space-between;
